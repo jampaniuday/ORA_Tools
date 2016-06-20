@@ -80,4 +80,4 @@ and lfpw.snap_id (+) = sn.snap_id
 and redo.snap_id (+) = sn.snap_id
 and ash.snap_id = sn.snap_id
 and requests.snap_id = sn.snap_id
-order by begin_interval_time desc
+order by begin_interval_time desc;
